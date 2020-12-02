@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby 
 
-require_relative '../lib/garden.rb'
-require_relative '../lib/plant.rb'
+require_relative '../confiq/environment.rb' #this works the same as we have everything in confiq file when run can be accessed here.
+
+# require_relative '../lib/garden.rb'
+# require_relative '../lib/plant.rb'
 
 lawn = Garden.new(name: 'Front Lawn')
 
